@@ -76,13 +76,13 @@ class CreditRepositoryTest {
     )
 
     private fun buildCustomer(
-        firstName: String = "Lucas",
-        lastName: String = "Gomes",
-        cpf: String = "06407183456",
-        email: String = "lucas.g.oliveira1998@gmail.com",
+        firstName: String = "Vitória",
+        lastName: String = "Giovana",
+        cpf: String = "21637486006",
+        email: String = "vitoria.giovana@gmail.com",
         password: String = "12345",
         zipCode: String = "12345",
-        street: String = "Rua Trinta e Quatro B",
+        street: String = "Avenida Paranavaí",
         income: BigDecimal = BigDecimal.valueOf(1000.0)
     ): Customer = Customer(
         firstName = firstName,
